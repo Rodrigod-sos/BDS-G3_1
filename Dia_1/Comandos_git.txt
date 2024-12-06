@@ -1,0 +1,22 @@
+##comando de entrada o vista 
+	# cd (a donde quieres entrar) -->agrega a tu ruta lo que pongas 
+	#ls -->te muestra que carpetas hay en la ruta que estas 
+
+## comando para agregar el nombre y email al git 
+	# git config --global user.name "tu nombre"
+	# git config --global user.email "tu email"
+
+## comando para clonar una carpeta en git hub 
+	# git clone (PEGAS LINK)
+	
+## Comando para abrir una nueva rama 
+	# git branch --->te muestra todas las ramas que tienes 
+	# git branch (nombre de una rama nueva) -->crea una rama con el nombre que esta 						   entre paréntesis 
+	# git checkout (el nombre de la rama a la que quieres moverte)
+
+## comandos para agregar cambios 
+	#git add . -->agregación previa 
+	#git status --> te deja ver lo que estas apunto de agregar 
+	#git commit -m "comentario de lo que estas agregando"
+	#git log --> te muestra el historial de cambios 
+	#git push origin main  
