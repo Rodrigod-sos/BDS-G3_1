@@ -19,4 +19,9 @@
 	#git status --> te deja ver lo que estas apunto de agregar 
 	#git commit -m "comentario de lo que estas agregando"
 	#git log --> te muestra el historial de cambios 
-	#git push origin main  
+	#git push origin (rama que quieres subir)
+
+## caso si quieres volver en el tiempo 
+	#git log -->te muestra el historial copiar los commit del lugar al que te moveras 
+	#git checkout (pegas el commit)
+
