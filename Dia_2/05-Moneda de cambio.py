@@ -7,11 +7,11 @@ print("                                  ")
     
 opcion = input("Selecciona una opción (1 o 2): ")
 
-if opcion == "1":
+if (opcion == "1"):
         soles = float(input("Ingresa la cantidad en soles: "))
         dolares = soles / 3.71
         print(f"{soles} soles equivalen a {dolares} dólares.")
-elif opcion == "2":
+elif (opcion == "2"):
         dolares = float(input("Ingresa la cantidad en dólares: "))
         soles = dolares * 3.71
         print(f"{dolares} dólares equivalen a {soles} soles.")
